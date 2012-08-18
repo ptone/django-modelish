@@ -19,7 +19,7 @@ in Python, Django models are a mostly declarative syntax
 Quickstart
 ----------
 
-Install django-predicate:
+Install django-modelish:
 
 .. code-block:: console
 
@@ -136,7 +136,6 @@ For each type - a set of default kwargs is defined in the grammar as
 
 .. code-block:: yaml
 
-    defaults:
     bool:
         default: true
     char:
