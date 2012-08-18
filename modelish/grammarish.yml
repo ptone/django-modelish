@@ -1,0 +1,37 @@
+types:
+    auto: AutoField
+    bigint: BigIntegerField
+    bool: BooleanField
+    char: CharField
+    date: DateField
+    datetime: DateTimeField
+    decimal: DecimalField
+    email: EmailField
+    file: FileField
+    float: FloatField
+    image: ImageField
+    int: IntegerField
+    ip: IPAddressField
+    gip: GenericIPAddressField
+    nbool: NullBooleanField
+    pint: PositiveIntegerField
+    psint: PositiveSmallIntegerField
+    slug: SlugField
+    sint: SmallIntegerField
+    text: TextField
+    time: TimeField
+    url: URLField
+    fk: ForeignKey
+    m2m: ManyToManyField
+    timestamp: DateTimeField
+
+defaults:
+    bool:
+        default: true
+    char:
+        max_length: 100
+        blank: true
+    nbool:
+        null: true
+    timestamp:
+        auto-now: true

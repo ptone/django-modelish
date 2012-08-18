@@ -1,0 +1,18 @@
+Poll:
+    doc: This is the poll model
+    question:
+        type: char
+        max_length: 200
+    pub_date:
+        type: datetime
+        args: date published
+
+Choice:
+    poll:
+        type: fk
+        args: [Poll]
+    choice_text-char:
+        max_length: 200
+    votes:
+        type: int
+
