@@ -154,3 +154,7 @@ additions or changes.
 That's it - this isn't meant to be any sort of full featured model builder or
 data modeler, it is just a simple DSLish bootstrap tool to give you
 a models.py starting point with a little less typing.
+
+What about editor completion snippets? Yes - that is an option, but it tends to
+only lets you set what kwargs you want in a all or nothing way. I'm open to
+learning about better in editor techniques for this use however.
